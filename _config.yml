@@ -1,3 +1,5 @@
 name: JeVeuxApprendreRuby
 markdown: redcarpet
 pygments: true
+exclude:
+- README.md
