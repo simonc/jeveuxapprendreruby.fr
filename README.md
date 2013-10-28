@@ -4,12 +4,26 @@ Une liste communautaire de ressources pour apprendre Ruby que vous soyez débuta
 
 ## Comment proposer de nouvelles ressources
 
-1. Créez un nouveau fichier dans _posts nommé année-mois-date-title.html ;
-2. Copiez le contenu de template.html dans ce fichier ;
+1. Créez un nouveau fichier dans _posts nommé année-mois-jour-titre-de-la-ressource.html ;
+2. Copiez/Collez le modèle ci-dessous ;
 3. Remplissez/Supprimez les entrées de l'en-tête selon vos besoins ;
-4. Ajoutez une description à la fin du fichier ;
-5. [Optionnel] Ajoutez une image de taille 300x180 dans /images ;
-6. C'est terminé ! Vous pouvez envoyer une pull request !
+4. Ajoutez une image de taille 300x180 dans `/images` ;
+5. C'est terminé ! Vous pouvez envoyer une pull request !
+
+``` markdown
+---
+layout: default
+title: Titre du site
+link: URL du site
+categories: [ruby, rails, puzzles]
+level: [débutant, intermédiaire, avancé, tous]
+instruction: [en-ligne, cours, vidéo, livre, texte, puzzles, newsletter, podcast]
+price: [gratuit, $5 (3.63€)]
+image: logo-du-site.png
+---
+
+Texte décrivant le site
+```
 
 ## Quoi contribuer
 
@@ -39,9 +53,7 @@ Voici les ressources que je connais mais que je n'ai pas eu la chance d'évaluer
 
 Des améliorations du code ou du site seront également appréciées. Quelques idées :
 
-* Ajouter une tâche rake pour générer les articles ;
-* Ajouter un filtre javascript sur la gratuité, le niveau, les instructions ;
-* Nettoyer le javascript pour que vous puissiez lier une sélection spécifique.
+* Ajouter un filtre javascript sur la gratuité, le niveau, les instructions
 
 ## Annonce
 
