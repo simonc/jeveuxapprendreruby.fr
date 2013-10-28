@@ -1,0 +1,68 @@
+h1, .title {
+  font-size: 1.5em;
+}
+
+@media (min-width: 480px) {
+  h1, .title {
+    font-size: 2em;
+  }
+}
+
+h1 span {
+  color: #D9534F;
+}
+
+article {
+  margin-bottom: 3em;
+}
+
+.title {
+  margin-top: 0;
+}
+
+a {
+  color: #000;
+}
+
+dl {
+  overflow: hidden;
+}
+
+dt, dd {
+  font-weight: bold;
+  margin-top: .5em;
+  padding: .1em .4em;
+}
+
+dt {
+  clear: both;
+  float: left;
+  width: 100px;
+}
+
+dd {
+  border-radius: 4px;
+  color: #FFF;
+  float: left;
+  margin-right: .5em;
+}
+
+.pricing {
+  background-color: #428BCA;
+}
+
+.category {
+  background-color: #D9534F;
+}
+
+.level {
+  background-color: #5CB85C;
+}
+
+.instruction {
+  background-color: #F0AD4E;
+}
+
+footer a {
+  color: #2A6496;
+}

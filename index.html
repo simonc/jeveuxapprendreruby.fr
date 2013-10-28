@@ -1,0 +1,51 @@
+---
+layout: default
+title: Je veux apprendre Ruby
+---
+
+<section id="websites">
+  <header>
+    <div class="page-header">
+      <h1>JeVeuxApprendre<span>Ruby</span></h1>
+    </div>
+  </header>
+
+  {% for post in site.posts %}
+    <article>
+      <div class="row">
+        <div class="col-sm-5 col-md-3">
+          <p><a class="thumbnail" href="{{post.link}}"><img src="images/{{post.image}}" /></a></p>
+        </div>
+        <div class="col-sm-7 col-md-8 col-md-offset-1">
+          <h1 class="title"><a href="{{post.link}}">{{post.title}}</a></h1>
+          <p class="description">{{post.content}}</p>
+          <dl>
+            <dt>URL</dt>
+            <dd><a href="{{post.link}}">{{post.link}}</a></dd>
+            <dt>Prix</dt>
+            {% for item in post.price %}
+            <dd class="pricing">{{item}}</dd>
+            {% endfor %}
+            <dt>Sujets</dt>
+            {% for item in post.categories %}
+            <dd class="category">{{item}}</dd>
+            {% endfor %}
+            <dt>Niveau</dt>
+            {% for item in post.level %}
+            <dd class="level">{{item}}</dd>
+            {% endfor %}
+            <dt>Modalités</dt>
+            {% for item in post.instruction %}
+            <dd class="instruction">{{item}}</dd>
+            {% endfor %}
+          </dl>
+        </div>
+      </div>
+    </article>
+  {% endfor %}
+
+  <footer>
+    <p>Une ressource manque, quelque chose de faux ?
+      <a href="http://github.com/simonc/jeveuxapprendreruby">Contribuez !</a></p>
+  </footer>
+</section>
