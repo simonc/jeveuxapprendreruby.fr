@@ -50,6 +50,7 @@ Voici les ressources que je connais mais que je n'ai pas eu la chance d'évaluer
 * http://ruby.railstutorial.org/ruby-on-rails-tutorial-book
 * http://codebrawl.com/
 * https://github.com/ryanb/ruby-warrior
+* http://www.rubypourlesnuls.fr
 
 Des améliorations du code ou du site seront également appréciées. Quelques idées :
 
