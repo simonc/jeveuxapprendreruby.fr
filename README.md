@@ -4,11 +4,11 @@ Une liste communautaire de ressources pour apprendre Ruby que vous soyez débuta
 
 ## Comment proposer de nouvelles ressources
 
-1. Créez un nouveau fichier dans _posts nommé année-mois-jour-titre-de-la-ressource.html ;
+1. Créez un nouveau fichier dans _posts nommé AAAA-MM-JJ-titre-de-la-ressource.md ;
 2. Copiez/Collez le modèle ci-dessous ;
 3. Remplissez/Supprimez les entrées de l'en-tête selon vos besoins ;
 4. Ajoutez une image de taille 300x180 dans `/images` ;
-5. C'est terminé ! Vous pouvez envoyer une pull request !
+5. C'est terminé ! Vous pouvez envoyer une Pull Request !
 
 ``` markdown
 ---
