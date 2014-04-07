@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ruby on Rails Vos premiers Pas
+title: Ruby on Rails Vos premiers Pas (fr)
 link: http://humancoders.github.com/railspremierspas/
 categories: [ruby, rails, puzzles]
 level: [débutant]

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bonjour gem
+title: Bonjour gem (fr)
 link: http://www.bonjourgem.com/
 categories: [ruby, rails]
 level: [tous]
