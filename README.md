@@ -4,11 +4,20 @@ Une liste communautaire de ressources pour apprendre Ruby que vous soyez débuta
 
 ## Comment proposer de nouvelles ressources
 
+1. [Forker le projet](https://github.com/simonc/jeveuxapprendreruby.fr/fork) ;
 1. Créez un nouveau fichier dans _posts nommé AAAA-MM-JJ-titre-de-la-ressource.md ;
 2. Copiez/Collez le modèle ci-dessous ;
 3. Remplissez/Supprimez les entrées de l'en-tête selon vos besoins ;
 4. Ajoutez une image de taille 300x180 dans `/images` ;
 5. C'est terminé ! Vous pouvez envoyer une Pull Request !
+
+### IMPORTANT ! Vous avez oublié l'image ?
+
+Ne créez pas une Pull Request supplémentaire ! Il vous suffit de l'ajouter et de commit sur la même branche que votre Pull Request et de push. Le commit sera automatiquement ajouté à la Pull Request.
+
+Pour en savoir plus [je vous recommande vivement ce guide](https://guides.github.com/introduction/flow/index.html).
+
+### Modèle
 
 ``` markdown
 ---
