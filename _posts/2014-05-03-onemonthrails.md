@@ -7,6 +7,8 @@ level: [débutant, intermédiaire]
 instruction: [en-ligne, cours, vidéo]
 price: [$99 (71.37€)]
 image: onemonthrails.jpg
+status: actif
+lang: en
 ---
 
 Excellent site réalisé par Mattan Griffel, nous guidant pas-à-pas dans la

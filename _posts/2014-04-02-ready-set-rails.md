@@ -7,6 +7,8 @@ level: [débutant]
 instruction: [en-ligne, cours, vidéo, texte, newsletter]
 price: [variable]
 image: readysetrails.png
+status: en pause
+lang: en
 ---
 
 Apprendre Rails est **difficile**. Les acronymes, les conventions, les

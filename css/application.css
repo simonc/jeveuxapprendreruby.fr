@@ -47,6 +47,14 @@ dd {
   margin-right: .5em;
 }
 
+.lang {
+  background-color: #E26E2A;
+}
+
+.status {
+  background-color: #794196;
+}
+
 .pricing {
   background-color: #428BCA;
 }

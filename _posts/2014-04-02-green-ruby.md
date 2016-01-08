@@ -7,6 +7,8 @@ level: [tous]
 instruction: [newsletter]
 price: [gratuit]
 image: greenruby.png
+status: actif
+lang: en
 ---
 
 Green Ruby est une newsletter hebdomadaire qui regroupe les liens intéressants

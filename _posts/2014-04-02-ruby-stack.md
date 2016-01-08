@@ -7,6 +7,8 @@ level: [débutant, intermédiaire]
 instruction: [texte]
 price: [gratuit]
 image: rubystack.png
+status: actif
+lang: en
 ---
 
 Ruby Stack fournit un environnement de développement complet pour
