@@ -7,6 +7,8 @@ level: [débutant, intermédiaire]
 instruction: [en-ligne, texte]
 price: [gratuit]
 image: codequizzes.png
+status: alive
+lang: en
 ---
 
 CodeQuizzes contient de nombreux quizzes sur Ruby on Rails. Les questions sur

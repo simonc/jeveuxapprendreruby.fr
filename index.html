@@ -22,6 +22,14 @@ title: Je veux apprendre Ruby
           <dl>
             <dt>URL</dt>
             <dd><a href="{{post.link}}">{{post.link}}</a></dd>
+            <dt>Langage</dt>
+            {% for item in post.lang %}
+            <dd class="lang">{{item}}</dd>
+            {% endfor %}
+            <dt>Actif ?</dt>
+            {% for item in post.status %}
+            <dd class="status">{{item}}</dd>
+            {% endfor %}
             <dt>Prix</dt>
             {% for item in post.price %}
             <dd class="pricing">{{item}}</dd>
