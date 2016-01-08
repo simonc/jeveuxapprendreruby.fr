@@ -7,6 +7,8 @@ level: [débutant]
 instruction: [livre]
 price: [gratuit]
 image: intro-programming-ruby.png
+status: alive
+lang: en
 ---
 
 Apprenez les bases fondamentales de la programmation. Les développeurs pourront

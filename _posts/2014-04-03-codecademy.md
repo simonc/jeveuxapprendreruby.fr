@@ -7,6 +7,8 @@ level: [débutant]
 instruction: [en-ligne, cours]
 price: [gratuit]
 image: codecademy.png
+status: alive
+lang: en
 ---
 
 Ruby est un langage de programmation très populaire qui aide à faire tourner de
