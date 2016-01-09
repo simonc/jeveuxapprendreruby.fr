@@ -29,6 +29,8 @@ level: [débutant, intermédiaire, avancé, tous]
 instruction: [en-ligne, cours, vidéo, livre, texte, puzzles, newsletter, podcast]
 price: [gratuit, $5 (3.63€)]
 image: logo-du-site.png
+status: actif
+lang: en
 ---
 
 Texte décrivant le site
