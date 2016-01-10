@@ -5,7 +5,7 @@ link: http://www.onemonthrails.com
 categories: [ruby, rails]
 level: [débutant, intermédiaire]
 instruction: [en-ligne, cours, vidéo]
-price: [$99 (71.37€)]
+price: [$99]
 image: onemonthrails.jpg
 status: actif
 lang: en

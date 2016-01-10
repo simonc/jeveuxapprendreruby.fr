@@ -5,7 +5,7 @@ link: http://www.rubytapas.com/
 categories: [ruby]
 level: [intermédiaire, avancé]
 instruction: [vidéo]
-price: [gratuit, 9$ (6€)]
+price: [gratuit, $9]
 image: ruby-tapas.png
 status: actif
 lang: en

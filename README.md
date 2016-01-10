@@ -27,7 +27,7 @@ link: URL du site
 categories: [ruby, rails, puzzles]
 level: [débutant, intermédiaire, avancé, tous]
 instruction: [en-ligne, cours, vidéo, livre, texte, puzzles, newsletter, podcast]
-price: [gratuit, $5 (3.63€)]
+price: [gratuit, $5]
 image: logo-du-site.png
 status: actif
 lang: en
