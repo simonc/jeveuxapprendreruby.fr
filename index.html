@@ -18,33 +18,32 @@ title: Je veux apprendre Ruby
         </div>
         <div class="col-sm-7 col-md-8 col-md-offset-1">
           <h1 class="title"><a href="{{post.link}}">{{post.title}}</a></h1>
+	  <a href="{{post.link}}">{{post.link}}</a>
           <p class="description">{{post.content}}</p>
           <dl>
-            <dt>URL</dt>
-            <dd><a href="{{post.link}}">{{post.link}}</a></dd>
-            <dt>Langage</dt>
+            <dt class="lang">Langage</dt>
             {% for item in post.lang %}
-            <dd class="lang">{{item}}</dd>
+            <dd class="lang {{item}}">{{item}}</dd>
             {% endfor %}
-            <dt>Actif ?</dt>
+            <dt class="status">Actif ?</dt>
             {% for item in post.status %}
-            <dd class="status">{{item}}</dd>
+            <dd class="status {{item}}">{{item}}</dd>
             {% endfor %}
-            <dt>Prix</dt>
+            <dt class="pricing">Prix</dt>
             {% for item in post.price %}
-            <dd class="pricing">{{item}}</dd>
+            <dd class="pricing {{item}}">{{item}}</dd>
             {% endfor %}
-            <dt>Sujets</dt>
+            <dt class="category">Sujets</dt>
             {% for item in post.categories %}
-            <dd class="category">{{item}}</dd>
+            <dd class="category {{item}}">{{item}}</dd>
             {% endfor %}
-            <dt>Niveau</dt>
+            <dt class="level">Niveau</dt>
             {% for item in post.level %}
-            <dd class="level">{{item}}</dd>
+            <dd class="level {{item}}">{{item}}</dd>
             {% endfor %}
-            <dt>Modalités</dt>
+            <dt class="instruction">Modalités</dt>
             {% for item in post.instruction %}
-            <dd class="instruction">{{item}}</dd>
+            <dd class="instruction {{item}}">{{item}}</dd>
             {% endfor %}
           </dl>
         </div>

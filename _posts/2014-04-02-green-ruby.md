@@ -3,7 +3,7 @@ layout: default
 title: Green Ruby
 link: http://greenruby.org/
 categories: [ruby, rails]
-level: [tous]
+level: [débutant, intermédiaire, avancé]
 instruction: [newsletter]
 price: [gratuit]
 image: greenruby.png

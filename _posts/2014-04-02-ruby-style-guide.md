@@ -3,7 +3,7 @@ layout: default
 title: Ruby Style Guide
 link: http://github.com/bbatsov/ruby-style-guide
 categories: [ruby]
-level: [tous]
+level: [débutant, intermédiaire, avancé]
 instruction: [en-ligne]
 price: [gratuit]
 image: ruby-style-guide.gif

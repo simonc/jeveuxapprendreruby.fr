@@ -1,5 +1,7 @@
 h1, .title {
   font-size: 1.5em;
+  margin-bottom: 2px;
+  line-height: 1;
 }
 
 @media (min-width: 480px) {
@@ -22,6 +24,7 @@ article {
 
 a {
   color: #000;
+  font-weight: bold;
 }
 
 dl {
@@ -37,7 +40,8 @@ dt, dd {
 dt {
   clear: both;
   float: left;
-  width: 100px;
+  width: 25%;
+  min-width: 100px;
 }
 
 dd {
@@ -47,30 +51,42 @@ dd {
   margin-right: .5em;
 }
 
-.lang {
-  background-color: #E26E2A;
-}
+// dt.lang { color: #E26E2A; }
+.lang.all { background-color: #D25E1A; }
+.lang.fr  { background-color: #D25E1A; }
+.lang.en  { background-color: #F27E3A; }
 
-.status {
-  background-color: #794196;
-}
+// dt.status { color: #794196; }
+.status.all 	  { background-color: #794196; }
+.status.alive 	  { background-color: #794196; }
+.status.stalled	  { background-color: #9961B6; }
+.status.obsolete  { background-color: #B981D6; }
+.status.dead	  { background-color: #D9A1F6; }
 
-.pricing {
-  background-color: #428BCA;
-}
+// dt.pricing { color: #428BCA; }
+.pricing.all 	    { background-color: #428BCA; }
+.pricing.gratuit    { background-color: #428BCA; }
+dd.pricing 	    { background-color: #82CBFA; }
 
-.category {
-  background-color: #D9534F;
-}
+// dt.category { color: #D9534F; }
+.category.all 	     { background-color: #B9332F; }
+.category.ruby	     { background-color: #B9332F; }
+.category.rails	     { background-color: #D9534F; }
+.category.puzzles    { background-color: #F9736F; }
 
-.level {
-  background-color: #5CB85C;
-}
+// dt.level { color: #5CB85C; }
+.level.all 	      { background-color: #5CB85C; }
+.level.débutant       { background-color: #5CB85C; }
+.level.intermédiaire  { background-color: #7CC87C; }
+.level.avancé         { background-color: #9CD89C; }
 
-.instruction {
-  background-color: #F0AD4E;
-}
+// dt.instruction { color: #F0AD4E; }
+dd.instruction { background-color: #F0AD4E; }
 
 footer a {
   color: #2A6496;
 }
+
+#filters dd		{ border: 1px solid white; transition: box-shadow 0.25s ease; }
+#filters dd.active	{ border: 1px solid black; color: black; }
+#filters dd:hover	{ border: 1px solid silver;  box-shadow: #888888 0px 0px 10px; }
