@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Zeste de Savoir
-link: https://zestedesavoir.com/tutoriels/beta/373/une-introduction-a-ruby/
+link: https://zestedesavoir.com/tutoriels/634/une-introduction-a-ruby/
 categories: [ruby]
 level: [débutant, intermédiaire]
 instruction: [en-ligne, cours, texte]
