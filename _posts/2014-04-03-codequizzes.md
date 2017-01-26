@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CodeQuizzes
-link: http://www.codequizzes.com/
+link: http://www.codequizzes.com/ruby
 categories: [ruby, rails]
 level: [débutant, intermédiaire]
 instruction: [en-ligne, texte]

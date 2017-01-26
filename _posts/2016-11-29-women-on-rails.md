@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Women on Rails
-link: http://github.com/women-on-rails/
+link: https://www.meetup.com/fr-FR/Women-On-Rails/
 categories: [ruby, rails, web]
 instruction: [en-ligne, code]
 level: [débutant]

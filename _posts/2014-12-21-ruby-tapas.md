@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Ruby Tapas
-link: http://www.rubytapas.com/
+link: https://www.rubytapas.com/
 categories: [ruby]
 level: [intermédiaire, avancé]
 instruction: [vidéo]
-price: [gratuit, $9]
+price: [gratuit, $18-35/mois]
 image: ruby-tapas.png
 status: actif
 lang: en

@@ -7,7 +7,7 @@ level: [avancé]
 instruction: [newsletter]
 price: [gratuit]
 image: practicing-ruby.png
-status: actif
+status: en pause
 lang: en
 ---
 

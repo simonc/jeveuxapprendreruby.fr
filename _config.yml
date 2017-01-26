@@ -1,5 +1,5 @@
 name: JeVeuxApprendreRuby
-markdown: redcarpet
-pygments: true
+# markdown: redcarpet
+highlighter: null
 exclude:
 - README.md

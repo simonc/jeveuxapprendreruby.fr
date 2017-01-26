@@ -7,7 +7,7 @@ level: [débutant]
 instruction: [en-ligne, livre, texte]
 price: [gratuit]
 image: poignant.png
-status: actif
+status: obsolète
 lang: en
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Confreaks
-link: http://confreaks.com/
+link: http://confreaks.tv/tags/5
 categories: [ruby, rails]
 level: [tous]
 instruction: [vidéo]
